@@ -1,0 +1,87 @@
+.mobo-slider {
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-touch-action: none;
+  -touch-action: none;
+  padding-top: 15px; }
+  .mobo-slider .slider-title {
+    font-size: 1.2em;
+    color: #08315f;
+    margin-left: 7%;
+    text-shadow: 1px 1px 3px #e5e5e5; }
+  .mobo-slider .slider-content {
+    margin-top: 10px; }
+  .mobo-slider .slider-slide {
+    position: relative;
+    border: none;
+    background: none;
+    height: 10px;
+    margin-left: 7%;
+    margin-right: 25%;
+    /*border-bottom: 2px dotted #fff;*/
+    /*border-radius: 15px;*/ }
+    .mobo-slider .slider-slide .slide-fill {
+      height: 10px;
+      background-color: #e5e5e5;
+      -webkit-box-shadow: -1px 2px 2px -1px #555538;
+      box-shadow: -1px 2px 2px -1px #555538;
+      -moz-box-shadow: -1px 2px 2px -1px #555538;
+      /*border-radius: 5px;*/ }
+  .mobo-slider .mobo-slider-handle {
+    position: absolute;
+    border: none;
+    background: none;
+    /*border-radius: 50%;*/
+    width: 25px;
+    height: 25px;
+    background-color: #e5e5e5;
+    margin-top: -8px;
+    margin-left: -12.5px;
+    padding: 5px;
+    top: 0;
+    box-shadow: 0 0 1px 0px #555538;
+    -webkit-box-shadow: 0 0 1px 0px #555538;
+    -moz-box-shadow: 0 0 1px 0px #555538;
+    box-sizing: border-box; }
+    .mobo-slider .mobo-slider-handle div {
+      height: 100%;
+      width: 100%;
+      background: #e4b552;
+      /*border-radius: 50%;*/
+      box-sizing: border-box; }
+  .mobo-slider .slider-value {
+    z-index: 200;
+    /*border-radius: 50%;*/
+    width: 60px;
+    height: 60px;
+    background-color: #e5e5e5;
+    margin-top: -35px;
+    margin-left: 75%;
+    padding-top: 5px;
+    text-align: center;
+    color: #c02019;
+    -webkit-box-shadow: 2px 2px 3px 0px #555538;
+    box-shadow: 2px 2px 3px 0px #555538;
+    -moz-box-shadow: 2px 2px 3px 0px #555538; }
+    .mobo-slider .slider-value .value-main {
+      padding-top: 8px;
+      color: #c02019;
+      font-size: 1.2em;
+      background: none;
+      border: none;
+      width: 60px;
+      text-align: center; }
+    .mobo-slider .slider-value .value-type {
+      margin-top: -5%;
+      font-size: 0.8em; }
+  .mobo-slider .slider-start-value {
+    float: left;
+    margin-left: 10%;
+    font-size: 0.8em;
+    margin-top: -10px;
+    display: none; }
+  .mobo-slider .slider-end-value {
+    float: right;
+    margin-right: 25%;
+    font-size: 0.8em;
+    margin-top: -10px;
+    display: none; }

@@ -1,0 +1,32 @@
+{
+  "name": "native5.ui.slider",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-concat": "~0.3.0"
+  },
+  "description": "A slider widget for touch devices",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.org/native5/native5-ui-slider.git"
+  },
+  "keywords": [
+    "widget",
+    "slider",
+    "touch"
+  ],
+  "author": "Anurag Dadheech",
+  "license": "MIT"
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>mobo | Slider Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link href="slider.css" rel="stylesheet">
+</head>
+<body>
+<div class ="mobo-slider" id ="slider">
+    <span class = "slider-title">Amount</span>
+    <div class = "slider-content">
+
+        <div class = "slider-slide" aria-disabled="false">
+            <div class = "slide-fill"></div>
+            <a class = "mobo-slider-handle">
+                <div>
+                </div>
+            </a>
+        </div>
+
+        <div class = "slider-value">
+            <input type = "text" class = "value-main">
+            <div class = "value-type">Million</div>
+        </div>
+        <div class = "slider-start-value">0</div>
+        <div class = "slider-end-value">100</div>
+    </div>
+</div>
+</body>
+<script src="../vendor/jquery.min.js"></script>
+<script src="../dist/mobo.ui.slider.js"></script>
+<script type="text/javascript">
+    var Slider1 = new mobo.ui.Slider("#slider", {
+        handle: ".mobo-slider-handle",
+        min : 0,
+        max : 100,
+        unit : 'Million',
+        title : 'Amount',
+        val : 25
+    });
+</script>
+</html>
