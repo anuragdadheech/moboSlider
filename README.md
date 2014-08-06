@@ -1,4 +1,4 @@
-#Native5 Slider Widget
+#Mobo Slider Widget
 A styled slider widget for touch based devices.
 
 ![Slider Image](https://s3.amazonaws.com/cdn.native5.com/slider-example.png)
@@ -6,7 +6,7 @@ A styled slider widget for touch based devices.
 ##Usage
 
 ```javascript
-var slider = new native5.ui.Slider("#slider",{
+var slider = new mobo.ui.Slider("#slider",{
     handle : ".n5-slider-handle",
     min : 0,
     max : 100,
@@ -57,5 +57,3 @@ Compatible and tested on :
 
 ##Authors
 * Anurag Dadheech
-
-Copyright &copy; Native5 2013 | MIT
