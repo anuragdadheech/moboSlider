@@ -96,6 +96,11 @@ var mobo = (function(mobo){
             el.addEventListener("touchend", onTouchEnd, false);
             el.addEventListener("touchleave", onTouchEnd, false);
             el.addEventListener("touchmove", onTouchMove, false);
+
+            el.addEventListener("mousedown", onTouchStart, false);
+            el.addEventListener("mouseup", onTouchEnd, false);
+            // el.addEventListener("touchleave", onTouchEnd, false);
+            el.addEventListener("mousemove", onTouchMove, false);
             console.log("initialized.");
         }
 
