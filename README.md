@@ -53,7 +53,7 @@ Compatible and tested on :
 
 * Android 4.0+, 
 * Mobile Safari 5.0+, 
-* IE Mobile 10
+* IE Mobile 10+
 
 ##Authors
 * Anurag Dadheech
