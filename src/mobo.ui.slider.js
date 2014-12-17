@@ -9,6 +9,7 @@ var mobo = (function(mobo){
 
     mobo.ui = mobo.ui || {};
 
+    //Defines the handle element
     var Handle = function(handleContainer) {
         Object.defineProperty(
             this, 
